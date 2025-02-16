@@ -14,7 +14,7 @@ db_config = {
 conn = mysql.connector.connect(**db_config)
 cursor = conn.cursor()
 
-API_TOKEN = '7369754765:AAHFVj_VE6ZVtXDD3oycVy3RzZ7OVPSiZo0'
+API_TOKEN = ''
 bot = telebot.TeleBot(API_TOKEN)
 translator = Translator()
 # Определим возможные языки
